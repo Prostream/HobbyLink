@@ -9,6 +9,11 @@ CS5340 — Human-Computer Interaction
 - Jia Song
 - Mengli Yu
 
+## Team Communication and Project Documents
+
+- [Microsoft Teams group chat](https://teams.cloud.microsoft/l/chat/19%3Ac2da5547f6f14932b5d11a576ad2eb50%40thread.v2/conversations?context=%7B%22contextType%22%3A%22chat%22%7D) — team communication and coordination.
+- [Project Phase 2 report](https://docs.google.com/document/d/1I1Tvr-16jYxPFGl-Qgn7ffSoedYUzIUIw7triUCJUvc/edit?usp=sharing) — interview questions, research progress, and phase submission materials.
+
 ## Project Description
 HobbyLink explores how people find and coordinate small group activities around shared interests. The team is studying the needs of both participants and organizers before deciding on a final product direction.
 
