@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f4f0e5;
+  color: #254945;
+}
+
+main {
+  width: min(100% - 3rem, 64rem);
+  margin-inline: auto;
+  padding-block: clamp(2rem, 8vh, 7rem);
+}
+
+figure {
+  margin: 0;
+  padding: clamp(0.6rem, 1.8vw, 1.5rem);
+  background: #fffdf4;
+  border: 1px solid #dedacd;
+  box-shadow: 0 12px 30px -18px #59473466;
+}
+
+figure img { display: block; width: 100%; height: auto; }
+
+@media (max-width: 36rem) {
+  main { width: calc(100% - 2rem); }
+  figure img { height: 58svh; object-fit: cover; object-position: 60% center; }
+}

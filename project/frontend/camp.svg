@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <defs>
+    <g id="pine" fill="currentColor"><path d="M0 0 -10 27 -6 26 -16 47 -9 45 -22 69 -3 66 -3 80 3 80 3 66 22 69 9 45 16 47 6 26 10 27Z"/></g>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".65" fill="#433d39" opacity=".13"/><circle cx="5" cy="5" r=".6" fill="#fff" opacity=".27"/></pattern>
+  </defs>
+  <path fill="#f2d6ac" d="M0 0h960v600H0z"/>
+  <circle cx="640" cy="158" r="75" fill="#e78e5a"/>
+  <g fill="none" stroke="#625f50" stroke-width="2.5" stroke-linecap="round">
+    <path d="M317 122q7 -3 13 4 4 -8 12 -8m17 -19q5 -2 9 3 3 -5 8 -6"/>
+  </g>
+  <path fill="#c8b99c" d="m0 265 108 -60 54 18 78 -67 49 30 103 -80 116 120 69 -44 74 54 94 -78 65 58 150 -66v221H0z"/>
+  <path fill="#95aaa0" d="m0 274 102 -15 100 20 99 -69 40 9 57 -42 76 65 74 -32 105 73 122 -98 68 39 117 -55v202H0z"/>
+  <path fill="#537d76" d="M0 245q90 -23 223 50t273 4q77 -26 140 3 69 32 147 -8t177 -50v113H0z"/>
+  <path fill="#a7c8b6" d="M0 325q155 -9 320 2t331 -2q140 -12 309 -5v280H0z"/>
+  <g fill="none" stroke="#e1dfbc" stroke-width="3" stroke-linecap="round">
+    <path d="M513 343h74m24 0h23m40 -7h36m-163 22h99m43 12h48m-452 -24h61m42 40h119m-153 16h47m-206 28h103"/>
+  </g>
+  <path fill="#75968a" d="M960 340q-75 2 -144 22t-158 24q51 15 135 4t167 -15z"/>
+  <path fill="#3e675d" d="M0 291q75 5 131 32t118 26q-50 10 -127 10T0 370z"/>
+  <g color="#385d54"><use href="#pine" transform="translate(39 225) scale(1.25)"/><use href="#pine" transform="translate(76 251)"/><use href="#pine" transform="translate(112 280) scale(.72)"/></g>
+  <path fill="#537a69" d="M960 374q-88 -7 -165 17t-201 43q-105 14 -186 60t-231 106h783z"/>
+  <path fill="#c5b887" d="M960 412q-120 -32 -230 -1t-172 45q25 8 91 5t91 10q-104 2 -208 30T316 600h644z"/>
+  <path fill="#ded1a2" d="M698 468q79 0 95 10t-36 27q-54 19 -20 31t160 64H767q-99 -29 -94 -56t79 -48q40 -17 -54 -28z"/>
+  <g color="#31594d"><use href="#pine" transform="translate(894 261) scale(1.68)"/><use href="#pine" transform="translate(847 299) scale(1.2)"/><use href="#pine" transform="translate(946 212) scale(2.25)"/></g>
+  <g stroke-linejoin="round">
+    <path fill="#8e8863" d="m552 460 104 -6 50 12 -105 3z"/>
+    <path fill="#bf6242" d="m556 455 43 -57 39 62z"/>
+    <path fill="#ea9d68" d="m599 398 58 8 36 49 -55 5z"/>
+    <path fill="#634b40" d="m574 455 24 -37 19 40z"/>
+    <path fill="none" stroke="#7f644d" stroke-width="2" d="m599 398 -56 60m114 -52 47 51"/>
+  </g>
+  <path fill="#365b4c" d="M0 447q86 4 171 48t165 34q-30 32 -116 71H0z"/>
+  <g color="#264c41"><use href="#pine" transform="translate(12 263) scale(3.1)"/><use href="#pine" transform="translate(91 339) scale(2.2)"/><use href="#pine" transform="translate(155 411) scale(1.4)"/></g>
+  <path fill="url(#grain)" d="M0 0h960v600H0z"/>
+</svg>
