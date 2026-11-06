@@ -11,11 +11,33 @@
 </head>
 <body>
   <main>
+    <dialog id="role-picker" aria-labelledby="role-question">
+      <div class="postcard-top">
+        <span class="wordmark">HobbyLink</span>
+        <div class="postage" aria-hidden="true">
+          <span class="stamp"></span>
+          <svg viewBox="0 0 64 32" width="64" height="32" fill="none" stroke="currentColor">
+            <path d="M1 9q8 -6 16 0t16 0t16 0t14 0M1 16q8 -6 16 0t16 0t16 0t14 0M1 23q8 -6 16 0t16 0t16 0t14 0"/>
+          </svg>
+        </div>
+      </div>
+      <h1 id="role-question" tabindex="-1" autofocus>What brings you here?</h1>
+      <nav aria-label="Choose your role">
+        <a href="#participant">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5z"/></svg>
+          <span>I’d like to join an activity</span><span aria-hidden="true">→</span>
+        </a>
+        <a href="#organizer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 21V4m0 1q3-3 7 0t7 0v9q-3 3-7 0t-7 0"/></svg>
+          <span>I’d like to host an activity</span><span aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </dialog>
     <figure aria-label="A lakeside campsite with mountains beneath the afternoon sun">
       <img src="./camp.svg" alt="" width="960" height="600">
     </figure>
-    <section id="participant" aria-label="Participant workspace"></section>
-    <section id="organizer" aria-label="Organizer workspace" hidden></section>
+    <section id="participant" aria-label="Participant workspace" hidden><h1 tabindex="-1">Participant workspace</h1></section>
+    <section id="organizer" aria-label="Organizer workspace" hidden><h1 tabindex="-1">Organizer workspace</h1></section>
   </main>
 </body>
 </html>

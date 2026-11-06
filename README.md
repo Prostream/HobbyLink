@@ -5,7 +5,7 @@ Team 7 — Project F26_7
 CS5340 — Human-Computer Interaction
 
 - Chunzhang Liu
-- Ziyong Liu (Joshua)
+- ZiyongLiu
 - Jia Song
 - Mengli Yu
 
@@ -25,7 +25,7 @@ This is a working scope for the initial demo and may change as the team learns m
 
 | Team member | Initial coding work |
 | --- | --- |
-| Ziyong Liu (Joshua) | Set up the frontend app structure, shared navigation and API calls; connect the participant and organizer pages into one runnable demo. |
+| ZiyongLiu | Set up the frontend app structure, shared navigation and API calls; connect the participant and organizer pages into one runnable demo. |
 | Chunzhang Liu | Build the backend endpoints for creating and listing activities, joining an activity, and reading its attendee list; add basic input and capacity checks. |
 | Jia Song | Build the participant pages: activity list, activity details, and join action with clear success or error feedback. |
 | Mengli Yu | Build the organizer pages: create activity form and attendee list with the current count; keep the page layout and labels consistent. |
@@ -39,10 +39,16 @@ The team will agree on the data fields and API responses before implementing the
 - `project/frontend/` — participant and organizer interfaces
 - `project/backend/` — activity and attendance logic
 
-## Open the frontend
+## Try the current prototype
+
+Open [project/frontend/index.html](project/frontend/index.html) from your local checkout in a browser. The page runs directly from disk.
+
+The opening postcard asks **“What brings you here?”** Choose **“I’d like to join an activity”** to enter the participant workspace or **“I’d like to host an activity”** to enter the organizer workspace. Each workspace currently shows its heading. Refresh to stay in that workspace, or use the browser Back button to choose again.
+
+## Developer handoff
+
+- **Jia and Mengli** can build inside the `#participant` and `#organizer` sections, respectively, in [index.html](project/frontend/index.html). [styles.css](project/frontend/styles.css) defines the shared layout and postcard design.
+- **ZiyongLiu’s frontend foundation** includes role selection and browser history in [navigation.js](project/frontend/navigation.js), plus the shared `HobbyLink.request(path, options)` JSON helper in [api.js](project/frontend/api.js).
+- **Next integration step** — once Chunzhang’s endpoints and the two activity views are ready, ZiyongLiu can connect them and verify the create → join → view roster flow.
 
 ![HobbyLink campsite illustration](project/frontend/camp.svg)
-
-Open [the frontend entry point](project/frontend/index.html) in a browser from your local checkout. The static shell runs directly from disk. Use `#participant` or `#organizer` at the end of the URL to switch workspaces. Each team member can add their page inside the corresponding section in `index.html`.
-
-The shared `HobbyLink.request(path, options)` helper sends JSON requests and returns parsed responses. Once the backend is ready, serve the frontend over HTTP and pass the agreed endpoint to the helper. Activity creation, joining and the roster are planned for the next implementation step.

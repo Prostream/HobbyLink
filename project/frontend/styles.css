@@ -26,3 +26,54 @@ figure img { display: block; width: 100%; height: auto; }
   main { width: calc(100% - 2rem); }
   figure img { height: 58svh; object-fit: cover; object-position: 60% center; }
 }
+
+dialog {
+  width: min(29rem, calc(100% - 2rem));
+  padding: clamp(1.4rem, 4vw, 2.35rem);
+  color: #25483d;
+  background: linear-gradient(120deg, #fffaf0, #faf1df);
+  border: 1px solid #d8cdb4;
+  border-radius: .55rem;
+  box-shadow: 0 4px 0 -1px #e9dfca, 0 6px 0 -2px #c4b69a, 0 1.4rem 5rem #172c3055;
+}
+dialog::backdrop { background: rgb(31 52 43 / 42%); }
+.postcard-top { display: flex; align-items: center; justify-content: space-between; }
+.wordmark { font: italic bold 1.25rem Georgia, serif; letter-spacing: -.05em; }
+.postage { position: relative; width: 5.8rem; height: 3rem; }
+.stamp {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 3.3rem;
+  transform: rotate(6deg);
+  background: #fffcf3 url('./camp.svg') center / cover;
+  border: 3px dotted #f8edda;
+  outline: 1px solid #c8bba3;
+}
+.postage svg { position: absolute; bottom: 0; left: 0; opacity: .55; transform: rotate(-9deg); }
+h1 { font: 500 clamp(1.6rem, 4vw, 2.25rem)/1.15 Georgia, serif; }
+dialog h1 {
+  max-width: 9em;
+  margin: 1.45rem 0;
+  font: normal clamp(2.4rem, 6vw, 3.4rem)/1 Georgia, serif;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+  outline: none;
+}
+dialog nav { border-top: 1px dashed #c6b99e; padding-top: 1.2rem; display: grid; gap: .65rem; }
+dialog a {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr auto;
+  align-items: center;
+  gap: .75rem;
+  padding: .95rem 1rem;
+  border: 1px solid #b3c1aa;
+  border-radius: .55rem;
+  background: #e3ebdb;
+  color: #284e40;
+  font: 600 .98rem/1.35 system-ui, sans-serif;
+  text-decoration: none;
+}
+dialog a + a { color: #733f2c; border-color: #d6b79e; background: #f4e2ce; }
+dialog a svg { width: 1.45rem; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+dialog a:hover { border-color: currentColor; }
+dialog a:focus-visible { outline: 3px solid currentColor; outline-offset: 2px; }
