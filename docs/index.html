@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#204d3c">
+  <meta name="description" content="Find your next small-group activity. An interactive HobbyLink research prototype with sample data.">
+  <title>HobbyLink — Find your people</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar">
+  <a class="brand" href="#browse" aria-label="HobbyLink home"><span class="brand-icon">h<span>•</span></span>HobbyLink</a>
+  <p class="nav-label">YOUR COMMUNITY</p>
+  <nav id="navigation" aria-label="Main navigation"></nav>
+  <div class="sidebar-bottom"><div class="profile"><span class="avatar">JD</span><div><strong>Jamie Davis</strong><small>Demo participant & host</small></div></div><button class="research-button" data-action="research">Researcher tools</button></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><span class="demo-tag"><span></span>Interactive prototype <i>Sample data</i></span><span class="clock-label" id="clock-label"></span><button class="icon-button notification-button" data-action="notifications" aria-label="Notifications" id="notifications-button"></button></header>
+  <main id="main" tabindex="-1"></main>
+  <footer>Small groups. Clear plans. Good company.<span>HobbyLink · Research prototype</span></footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="modal" aria-labelledby="modal-title"></dialog>
+<script type="module" src="app.js"></script>
+</body>
+</html>
