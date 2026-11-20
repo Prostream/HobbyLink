@@ -14,6 +14,10 @@ CS5340 — Human-Computer Interaction
 - [Microsoft Teams group chat](https://teams.cloud.microsoft/l/chat/19%3Ac2da5547f6f14932b5d11a576ad2eb50%40thread.v2/conversations?context=%7B%22contextType%22%3A%22chat%22%7D) — team communication and coordination.
 - [Project Phase 2 report](https://docs.google.com/document/d/1I1Tvr-16jYxPFGl-Qgn7ffSoedYUzIUIw7triUCJUvc/edit?usp=sharing) — interview questions, research progress, and phase submission materials.
 
+- [Project Phase 3 report](https://docs.google.com/document/d/1ZuVv3fBZP2RGWL79lujePwR0jw9oS7-_4tJ61bXDtZk/edit) — research findings, problem definition, prototype design, and development progress.
+- [Live interactive demo](https://prostream.github.io/HobbyLink/) — open in a browser; no login required. Uses sample data that resets on reload.
+- [Prototype source code](https://github.com/Prostream/HobbyLink/tree/codex/prototype-pages/docs) — the `docs/` folder on the `codex/prototype-pages` publishing branch.
+
 ## Project Description
 HobbyLink explores how people find and coordinate small group activities around shared interests. The team is studying the needs of both participants and organizers before deciding on a final product direction.
 
@@ -44,7 +48,7 @@ The team will agree on the data fields and API responses before implementing the
 - `project/frontend/` — participant and organizer interfaces
 - `project/backend/` — activity and attendance logic
 
-## Try the current prototype
+## Run the frontend foundation locally
 
 Open [project/frontend/index.html](project/frontend/index.html) from your local checkout in a browser. The page runs directly from disk.
 
@@ -57,3 +61,4 @@ The opening postcard asks **“What brings you here?”** Choose **“I’d like
 - **Next integration step** — once Chunzhang’s endpoints and the two activity views are ready, ZiyongLiu can connect them and verify the create → join → view roster flow.
 
 ![HobbyLink campsite illustration](project/frontend/camp.svg)
+
